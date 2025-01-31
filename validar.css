@@ -1,0 +1,29 @@
+body {
+    position: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 50vh;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(47, 135, 207), rgb(90, 39, 104));
+}
+
+h1, h3 {
+    position: block;
+}
+
+.box {
+    position: flex;
+    height: 120px;
+    width: 20%;
+    margin-left: 40%;
+
+    border-radius: 20px;
+    box-shadow: black 1px 1px 1px 1px;
+}
+
+.box2 {
+    position: flex;
+    
+}
